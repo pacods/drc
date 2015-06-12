@@ -1,0 +1,12 @@
+.skill {
+    width: 500px;
+    height: 300px;
+    margin-left: 50px;
+    background-color: yellow;
+    -webkit-transform: skew(30deg, 20deg);
+    -moz-transform: skew(30deg, 20deg);
+    -ms-transform: skew(30deg, 20deg);
+    -o-transform: skew(30deg, 20deg);
+    transform: skew(30deg, 20deg);
+
+}

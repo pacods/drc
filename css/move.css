@@ -1,0 +1,41 @@
+@keyframes myAnimation {
+
+    25%{
+        width: 200px;
+        height: 200px;
+        left: 800px;
+        top: 0;
+
+    }
+
+    50%{
+        width: 200px;
+        height: 200px;
+        left: 800px;
+        top: 500px;
+        -webkit-transform: rotate(360deg);
+
+    }
+
+    75% {
+        width: 200px;
+        height: 200px;
+        left: 0;
+        top: 500px;
+    }
+
+}
+
+
+.move {
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+
+    -webkit-animation: myAnimation 2s ;
+    -moz-animation: myAnimation 2s ;
+    -o-animation: myAnimation 2s ;
+    animation: myAnimation 2s ;
+
+
+}

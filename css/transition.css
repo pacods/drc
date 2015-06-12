@@ -1,0 +1,24 @@
+.transition {
+    width: 100px;
+    height: 100px;
+    background-color: darkred;
+
+    -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s ;
+    -moz-transition: width 2s, height 2s, background-color 2s, -moz-transform 2s ;
+    -ms-transition: width 2s, height 2s, background-color 2s, -moz-transform 2s ;
+    -o-transition: width 2s, height 2s, background-color 2s,  -ms-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+
+}
+
+.transition:hover  {
+    width: 400px;
+    height: 300px;
+    background-color: antiquewhite;
+
+    -webkit-transform: rotate(3600deg);
+    -moz-transform: rotate(3600deg);
+    -ms-transform: rotate(3600deg);
+    -o-transform: rotate(3600deg);
+    transform: rotate(3600deg);
+}
