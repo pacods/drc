@@ -1,0 +1,11 @@
+.container {
+    background-color: #f00;
+}
+
+.container-fluid {
+    background-color: #ff0;
+
+}
+.container, .container-fluid {
+    height: 200px;
+}
