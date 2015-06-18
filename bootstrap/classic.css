@@ -1,0 +1,25 @@
+.header{
+    background-color: #120f0e;
+    height: 75px;
+}
+
+.body{
+    height: 1000px;
+}
+
+.left{
+    background-color: #43fffa;
+}
+
+.center{
+    background-color: #365bff;
+}
+
+.right{
+    background-color: #43fffa;
+}
+
+.footer{
+    height: 200px;
+    background-color: #3a3a3a;
+}
